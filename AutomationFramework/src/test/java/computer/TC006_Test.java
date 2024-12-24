@@ -17,5 +17,6 @@ public class TC006_Test extends BaseClass {
 		hp.getComputersLink().click();
 		Assert.assertEquals(driver.getTitle(), "Demo Web Shop. Computers", "Cpmputers page is not displayed");
 		test.log(Status.PASS, "Computers page is displayed");
+		Reporter.log("from guithub", true);
 	}
 }
